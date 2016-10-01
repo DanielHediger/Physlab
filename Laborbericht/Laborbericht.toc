@@ -10,16 +10,13 @@
 \contentsline {subsection}{\numberline {2.4}Berechnungen}{4}
 \contentsline {section}{\numberline {3}Aufgabe 3}{4}
 \contentsline {subsection}{\numberline {3.1}Grundlagen}{5}
-\contentsline {subsection}{\numberline {3.2}Versuchsaufbau}{5}
-\contentsline {subsection}{\numberline {3.3}Gemessene Gr\IeC {\"o}ssen}{5}
-\contentsline {subsection}{\numberline {3.4}Berechnungen}{5}
-\contentsline {subsection}{\numberline {3.5}Schlussfolgerung}{5}
+\contentsline {subsection}{\numberline {3.2}Gemessene Gr\IeC {\"o}ssen}{5}
+\contentsline {subsection}{\numberline {3.3}Berechnungen}{5}
+\contentsline {subsection}{\numberline {3.4}Schlussfolgerung}{5}
 \contentsline {section}{\numberline {4}Aufgabe 4}{5}
 \contentsline {subsection}{\numberline {4.1}Grundlagen}{5}
-\contentsline {subsection}{\numberline {4.2}Versuchsaufbau}{5}
-\contentsline {subsection}{\numberline {4.3}Gemessene Gr\IeC {\"o}ssen}{5}
-\contentsline {subsection}{\numberline {4.4}Berechnungen}{5}
-\contentsline {subsection}{\numberline {4.5}Schlussfolgerung}{5}
+\contentsline {subsection}{\numberline {4.2}Berechnungen}{5}
+\contentsline {subsection}{\numberline {4.3}Schlussfolgerung}{5}
 \contentsline {section}{\numberline {5}Aufgabe 5}{5}
 \contentsline {subsection}{\numberline {5.1}Grundlagen}{5}
 \contentsline {subsection}{\numberline {5.2}Versuchsaufbau}{5}
