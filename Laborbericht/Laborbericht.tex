@@ -1,20 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% University/School Laboratory Report
-% LaTeX Template
-% Version 3.1 (25/3/14)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author: hens
-
-% Linux and Unix Users Group at Virginia Tech Wiki 
-% (https://vtluug.org/wiki/Example_LaTeX_chem_lab_report)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND DOCUMENT CONFIGURATIONS
@@ -80,18 +63,34 @@ Das Gewicht wird durch die Erdbeschleunigung nach unten gezogen, und durch das S
 \caption{Fahrradrad mit angehängten Gewicht.}
 \
 \end{figure}
-\subsection{Gemessene Grössen}
+
 \subsection{Berechnungen}
 Energieerhaltung des Systems.\\\\
-$E_{rot}+E_{kin}=E_{pot}  \Rightarrow\frac{1}{2}*I*\omega+\frac{1}{2}*m*v^2=m*g*h$\\\\
+$E_{rot}+E_{kin}=E_{pot}  \Rightarrow\frac{1}{2}*I*\omega^2+\frac{1}{2}*m*v^2=m*g*h$\\\\
 Das ganze nach dem Trägheitsmoment umgestellt.\\\\
-$I=\frac{-m*(v^2*2g*h)}{\omega^2} $\\\\
+$I=\frac{-m*(v^2-2g*h)}{\omega^2} $\\\\
 Das fehlende $\omega$ wurde nun Experimentell bestimmt.
 
-
+\subsection{Gemessene Grössen}
+\begin{table}[h]
+    \begin{tabular}{|l|l|l|l|}
+        \hline
+  
+        Durchgang & RPM$\cdot$2 $ \quad $[$\frac{1}{60s}$]   & $\omega \quad $[$\frac{rad}{s}$] & I $\quad [kg\cdot m^2]$ \\ \hline
+        1         & 114.3 & 11.97 & 0.076 \\ 
+        2         & 131   & 13.72 & 0.055 \\ 
+        3         & 118   & 12.36 & 0.071 \\ 
+        4         & 117   & 12.25 & 0.072 \\ 
+        5         & 121   & 12.67 & 0.066 \\ 
+        6         & 116   & 12.15 & 0.073 \\ 
+        7         & 117.6 & 12.31 & 0.071 \\ 
+        8         & 126.2 & 13.22 & 0.060 \\ 
+        9         & 119   & 12.46 & 0.069 \\
+        \hline
+    \end{tabular}
+\end{table}
 \section{Aufgabe 2}
-Das eigene Trägheitsmoment soll Experimentell aufgrund der Drehimpulserhaltung bestimmt werden.
-
+Das eigene Trägheitsmoment soll Experimentell aufgrund der Drehimpulserhaltung bestimmt werden.     
 \subsection{Grundlagen}
 Durch die Gegebenheit der Drehzahl des Rades und dessen Trägheitsmoment, kann anhand der eigenen
 Drehzahl nach dem verändern der Drehachse, das Trägheitsmoment des gesamten 
