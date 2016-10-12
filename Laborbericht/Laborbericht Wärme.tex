@@ -1,0 +1,108 @@
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage[version=3]{mhchem} % Package for chemical equation typesetting
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage{natbib} % Required to change bibliography style to APA
+\usepackage{amsmath} % Required for some math elements 
+\usepackage{german}
+\usepackage[utf8]{inputenc}
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+
+%\usepackage{times} % Uncomment to use the Times New Roman font
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Physiklabor \\ Laborbericht \\ Wärme} % Title
+
+\author{Daniel \textsc{Hediger} \\ Lucien \textsc{Egloff}} % Author name
+
+
+
+\date{\today} % Date for the report
+
+\begin{document}
+
+\maketitle % Insert the title, author and date
+
+\begin{center}
+\begin{tabular}{l r}
+Ausführungsdatum: & September 28, 2016 \\ % Date the experiment was performed
+Dozent: & Dr.Ackermann % Instructor/supervisor
+\end{tabular}
+\end{center}
+\newpage
+\tableofcontents 
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+\newpage
+\section{Aufgabe 1}
+Die spezifische Wärmekapazität einer Pfanne soll experimentell bestimmt werden.
+\subsection{Grundlagen}
+Die Wärmekapazität gibt an wie viel Energie benötigt wird um ein Kilogramm eines Materials um 1 Kelvin zu erhöhen.
+Bei homogenen Körpern lässt sich die Wärmekapazität als Produkt der Masse des Körpers und der spezifischen Wärmekapazität berechnen.
+\subsection{Versuchsaufbau}
+\subsection{Resultate}
+In dem idealisiert Versuch wird davon ausgegangen das keinen Wärmeaustausch über die Luft stattfindet.Um die Wärmekapazität der Pfanne zu bestimmen wurde die Mischtemperatur berechnet sowie auch gemessen. Da in diesem System die Energieerhaltung gilt, muss die Energiedifferenz die benötigte Energie sein um die Pfanne zu erwärmen.
+
+Unter der Bedingung, dass keine Aggregatzustandsänderung auftritt und das System aus den Körpern abgeschlossen ist gilt:
+
+\begin{equation}
+\begin{split}
+ Q_{abgegeben} = Q_{aufgenommen}\hspace{0.655cm}\\
+ m_1\cdot c_1\cdot (T_1-T_m)=m_2\cdot c_2\cdot (T_2-T_m)
+\end{split}
+\end{equation}
+Die aufgelöste Formel nach der Mischungstemperatur:
+\begin{equation}
+	T_m = \frac{m_1\cdot c_1\cdot T_1+m_2\cdot c_2\cdot T_2}{m_1\cdot c_1+m_2\cdot c_2}
+\end{equation}
+Aus der Mischtemperatur$(T_{mberechnet})$ und Mischtemperatur$(T_{mgemessen})$ kann die Wärme $Q$ berechnet werden, welche in die Pfanne übergegangen ist.
+\begin{equation}
+ Q = (m_{w1}+m_{w2}) \cdot c_w \cdot (T_m{berechnet}-T_m{gemessen})
+\end{equation}
+Somit kann die spezifische Wärmekapazität berechnet werden mit :
+\begin{equation}
+	c_{Pfanne} = \frac{Q}{m_{Pfanne} \cdot (T_{p1}-T_{p2}) }
+\end{equation}
+\begin{table}[h]
+    \begin{tabular}{|l|l|l|l|l|l|}
+        \hline
+  
+        \textbf{Durchgang} &\textbf{Gewicht Wasser kalt[Kg]} &\textbf{Gewicht Wasser warm[Kg]} & \textbf{Mischtemperatur}\\ \hline
+        1         &  &  & &  &  \\ 
+        2         &  &  & &  &  \\ 
+        3         &  &  &  &  & \\ 
+        4         &  &  & &  &  \\ \hline
+        \textbf{Median}         &  &  & && \\ 
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection*{Schlussfolgerung}
+\section{Versuch 2}
+\subsection{Grundlage}
+\subsection{Versuchsaufbau}
+\subsection{Resultate}
+\subsection{Schlussfolgerung}
+\section{Versuch 3}
+\subsection{Grundlage}
+\subsection{Versuchsaufbau}
+\subsection{Resultate}
+\subsection{Schlussfolgerung}
+\section{Versuch 4}
+\subsection{Grundlage}
+\subsection{Versuchsaufbau}
+\subsection{Resultate}
+\subsection{Schlussfolgerung}
+\end{document}
