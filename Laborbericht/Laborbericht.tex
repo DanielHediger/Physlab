@@ -11,6 +11,8 @@
 \usepackage{natbib} % Required to change bibliography style to APA
 \usepackage{amsmath} % Required for some math elements 
 \usepackage{german}
+\usepackage{float}
+\restylefloat{figure}
 \usepackage[utf8]{inputenc}
 \setlength\parindent{0pt} % Removes all indentation from paragraphs
 \renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
@@ -65,18 +67,25 @@ Das Gewicht wird durch die Erdbeschleunigung nach unten gezogen, und durch das S
 \end{figure}
 
 \subsection{Berechnungen}
-Energieerhaltung des Systems.\\\\
-$E_{rot}+E_{kin}=E_{pot}  \Rightarrow\frac{1}{2}*I*\omega^2+\frac{1}{2}*m*v^2=m*g*h$\\\\
-Das ganze nach dem Trägheitsmoment umgestellt.\\\\
-$I=\frac{-m*(v^2-2g*h)}{\omega^2} $\\\\
+Energieerhaltung des Systems.\begin{equation}
+E_{rot}+E_{kin}=E_{pot}  \Rightarrow\frac{1}{2}*I*\omega^2+\frac{1}{2}*m*v^2=m*g*h
+\end{equation}
+
+Das ganze nach dem Trägheitsmoment umgestellt.
+\begin{equation}
+I=\frac{-m*(v^2-2g*h)}{\omega^2}
+\end{equation}
+
 Das fehlende $\omega$ wurde nun Experimentell bestimmt.
 
-\subsection{Gemessene Grössen}
-\begin{table}[h]
+
+\begin{table}[H]
+\center
     \begin{tabular}{|l|l|l|l|}
         \hline
+        
   
-        Durchgang & RPM$\cdot$2 $ \quad $[$\frac{1}{60s}$]   & $\omega \quad $[$\frac{rad}{s}$] & I $\quad [kg\cdot m^2]$ \\ \hline
+        Durchgang & RPM$\cdot$2 $\ast$ $ \quad $[$\frac{1}{60s}$ ]   & $\omega \quad $[$\frac{rad}{s}$] & I $\quad [kg\cdot m^2]$ \\ \hline
         1         & 114.3 & 11.97 & 0.076 \\ 
         2         & 131   & 13.72 & 0.055 \\ 
         3         & 118   & 12.36 & 0.071 \\ 
@@ -85,16 +94,26 @@ Das fehlende $\omega$ wurde nun Experimentell bestimmt.
         6         & 116   & 12.15 & 0.073 \\ 
         7         & 117.6 & 12.31 & 0.071 \\ 
         8         & 126.2 & 13.22 & 0.060 \\ 
-        9         & 119   & 12.46 & 0.069 \\
+        9         & 119   & 12.46 & 0.069 \\ \hline
+        			\textbf{Mittelwert}&\textbf{120.01}&\textbf{12.57}&\textbf{0.068}\\
         \hline
+  
     \end{tabular}
+    \caption{Gemessene Grössen und daraus folgenden Berechnungen.}
+      $\ast$  Für bessere Genauigkeit wurde RPM immer nach $\pi$ gemessen
+
 \end{table}
+\subsection{Schussfolgerung}
+
+Ähnlich wie schon rechnerisch bestimmt, erhält man ungefähr das gleiche Trägheitsmoment.Mit einer Standartabweichung von nur $67*10^-4$ kann man davon ausgehen das die gemessen Grössen genügen aussagekräftig sind .Gewisse Abweichungen entstehen durch Messfehler und Reibungen am Rad.\newpage
+
+
 \section{Aufgabe 2}
 Das eigene Trägheitsmoment soll Experimentell aufgrund der Drehimpulserhaltung bestimmt werden.     
 \subsection{Grundlagen}
 Durch die Gegebenheit der Drehzahl des Rades und dessen Trägheitsmoment, kann anhand der eigenen
 Drehzahl nach dem verändern der Drehachse, das Trägheitsmoment des gesamten 
- Mensch-Hocker-Rad-Systems genähert werden.
+Mensch-Hocker-Rad-Systems genähert werden.
 
 \subsection{Versuchsaufbau}
 \begin{figure}[h]
@@ -103,42 +122,160 @@ Drehzahl nach dem verändern der Drehachse, das Trägheitsmoment des gesamten
 \includegraphics[scale=0.5]{Drehschemmel.pdf} 
 \caption{Person mit drehendem Fahrradrad}
 \
+
 \end{figure}
-\subsection{Gemessene Grössen}
+
 \subsection{Berechnungen}
-Die Grundformel
-$T_p = \frac{2*\pi*(I_m+I_s)*\omega}{(m_m+m_s)*g*h} $ wird nach $I_m$(I-Mensch)umgestellt.\\\\
-$I_m = \frac{g*h*(m_m+m_s)*T_p}{2*\pi*\omega}-I_s$
+Mit der Formel:
+\begin{equation}
+I_{Person}=\frac{I_{Rad}\cdot n_{Rad}\cdot T_{Stuhl}}{30}-(I_{Rad}+m_{Rad}\cdot d^2)
+\end{equation}
+können folgende Werte berechnet werden:
+\begin{table}[H]
+   \center
+    \begin{tabular}{|l|l|l|l|}
+        \hline
+     
+        Durchgang & $n_{Rad[1/min]}$ & $T_{Stuhl}[sek]$ & $I_{Person}\quad [kg\cdot m^2]$ \\ \hline
+        1         & 1080         & 2.31    & 5.09      \\ 
+        2         & 1080         & 2.26    & 4.96       \\ 
+        3         & 1080         & 2.27    & 4.98        \\ 
+        4         & 1100         & 34.1    & 3.79        \\ 
+        5         & 1100         & 28.3    & 4.71        \\ 
+        6         & 1100         & 30      & 4.40        \\ 
+        7         & 1100         & 29.27   & 4.53        \\ 
+        8         & 900          & 30.46   & 3.40        \\ 
+        9         & 900          & 31.25   & 3.30        \\ 
+        10        & 900          & 30.93   & 3.34        \\
+        \hline
+    \end{tabular}
+    \caption{Tabelle der Gemessen Grössen aus den versuchen.}
+\end{table}
 
-
-
-
-\section{Aufgabe 3}
-Ein rotierender Kreisel wird durch das anhängen eines Gewichtes zum Präzessieren gebracht werden. Daraus lässt sich das Trägheitsmoment berechnen. 
-\subsection{Grundlagen}
-\subsection{Gemessene Grössen}
-\subsection{Berechnungen}
 \subsection{Schlussfolgerung}
 
+Diverse Ungenauigkeiten, wie zum Beispiel die genaue Sitzposition der Person oder fehlende Angaben über das Trägheitsmoment des Stuhls, führten bei diesem Versuch dazu, dass das Resultat etwas weit ab von den Erwartungen(siehe Anhang)ausfiel. Man müsste bei der Berechnung im vornherein sicherlich noch die Position der Arme beachten, um das Trägheitsmoment korrekt bestimmen zu können.
+\newpage
+\section{Aufgabe 3}
+
+Ein rotierender Kreisel wird durch das anhängen eines Gewichtes zum Präzessieren gebracht. Daraus lässt sich das Trägheitsmoment berechnen. 
+\subsection{Grundlagen}
+Durch das Anhängen eines Gewichts an den Kreisel, wirkt auf diesen ein Drehmoment, welches eine 
+Präzession auslöst. Die Präzessionsfrequenz sagt aus wie viele Präzessionsperioden in einer Sekunde 
+durchlaufen werden. Die Präazessionsperiode ist die Zeit, welche der Kreisel benötigt um eine Drehung um 2$\pi$ auszuführen.
+\subsection{Gemessene Grössen}
+Die Grundformel: \vspace{0.2cm}\\
+\begin{equation}
+T_p = \frac{4\cdot\pi\cdot I_{Kreisel}\cdot n}{m\cdot g\cdot r\cdot 60}
+\end{equation}
+
+
+wird nach der Trägheit der Kreisels umgestellt:
+\begin{equation}
+I_{Kreisel}= \frac{T_p\cdot m\cdot g\cdot r \cdot 15}{ \pi \cdot n}
+\end{equation}
+
+
+
+
+\begin{table}[H]
+   \center
+    \begin{tabular}{|l|l|l|l|}
+        \hline
+        Durchgang & Drehzahl$[\frac{1}{60s}]$ & T $[sek]$    & I  $[kg\cdot m^2]$    \\ \hline
+        1         & 4500     & 51.58 & 0.0024 \\ 
+        2         & 1100     & 14.66 & 0.0028 \\ 
+        3         & 2200     & 26.53 & 0.0025 \\ 
+        4         & 6200     & 59.54 & 0.0020 \\ 
+        5         & 5200     & 43.04 & 0.0017 \\ 
+        6         & 5000     & 53.07 & 0.0022 \\ 
+        7         & 2530     & 25.18 & 0.0021 \\
+        \hline
+    \end{tabular}
+    \caption{Tabelle mit gemessenen Grössen aus dem Versuch.}
+\end{table}
+\subsection{Schlussfolgerung}
+Das Trägheitsmoment wurde bei verschiedenen Drehzahlen bestimmt, und ergaben alle keine signifikante Abweichung voneinander.Um eine Aussage über die Plausibilität der Messresultate zu machen müssten mehr Versuche durchgeführt werden.
 \section{Aufgabe 4}
 Der Drallsatz soll durch das einwirken einer horizontalen Kraft bestimmt werden.
 \subsection{Grundlagen}
-Der Kreisel wird beschleunigt und anschliessend mit einer Horizontalen Kraft beeinflusst. Dadurch 
-beginnt er sich zu drehen, und die Zeit die er für $90^\circ$ benötigt wird gemessen. 
-Anschliessend werden wir mit Hilfe des Drallsatzes, der gemessenen Werte und des 
-Trägheitsmoments die Kraft welche wir aufwendeten berechnen und auf Übereinstimmung 
-überprüfen. 
+Der Kreisel wird beschleunigt und anschliessend mit einer Horizontalen Kraft belastet. Dadurch beginnt er sich zu drehen, und die Zeit die er für $90^\circ$ benötigt wird gemessen. Anschliessend werden wir mit Hilfe des Drallsatzes, der gemessenen Werte und des Trägheitsmoments, die Kraft welche wir aufwendeten berechnen und auf Übereinstimmung überprüfen.
 
 \subsection{Berechnungen}
-$F_{Zug}=\frac{I_{Kreisel}*2*\pi*n_{Kreisel}}{T_{90^\circ }*d*60}$
-\subsection{Schlussfolgerung}
+Aus vorgängigen Aufgaben:\\
+I=0.0021$[kg\cdot m^2]$,r=0.1$[m]$\vspace{0.2cm}\\ 
+Die Grundformel für die Präzzesionsumdrehungszahl lautet:
+\begin{equation}
+T_p = \frac{2\cdot\pi\cdot I_{Kreisel}\cdot \omega}{m\cdot g\cdot h}
+\end{equation}
 
+
+Aus bekannter Beziehung kann m*g durch F ersetzt werden, und danach umgestellt lautet die Formel:
+
+\begin{equation}
+F_{Zug} = m*g
+\end{equation}
+\begin{equation}
+F_{Zug}=\frac{I_{Kreisel}*4*\pi*n_{Kreisel}}{T_{90}*r*60}
+\end{equation}
+\begin{table}[H]
+   \center
+    \begin{tabular}{|l|l|l|l|l|}
+        \hline
+        Durchgang & Drehzahl & F   & T     & $F_{Gemessen}$    \\ \hline
+        1         & 2800     & 0.3 & 9.22  & 1.36 \\ 
+        2         & 2870     & 0.3 & 4.25  & 3.03 \\ 
+        3         & 3770     & 0.5 & 10.49 & 1.62 \\ 
+        4         & 2200     & 0.4 & 10.00 & 0.99 \\ 
+        5         & 3800     & 0.3 & 17.52 & 0.98 \\
+        \hline
+    \end{tabular}
+    \caption{Tabelle mit gemessenen Grössen aus dem Versuch}
+\end{table}
+
+
+\subsection{Schlussfolgerung}
+Das Trägheitsmoment wurde vorgängig experimentell bestimmt und kann dadurch grosse Abweichungen enthalten.Des weiteren ist es sehr schwierig eine konstante Kraft auf den Kreisel auszuüben, wie auch die Reibung wurde in der Formel vernachlässigt.Durch die Addition dieser Fehler sind grosse Abweichungen erklärbar.
+\newpage
 \section{Aufgabe 5}
-
-Die zeitliche Abnahme der Rotationsfrequenz des Rades und des Kreisels aufgrund von
-Reibung soll bestimmt werden.
+Die zeitliche Abnahme der Rotationsfrequenz des Rades und des Kreisels, soll aufgrund
+von Reibung bestimmt werden.
 \subsection{Grundlagen}
-\subsection{Versuchsaufbau}
+Durch Luft und Lagerreibung wird der Körper stetig abgebremst. Ohne die erwähnten Effekte würde das Rad und der Kreisel unendlich weiter drehen.
 \subsection{Gemessene Grössen}
+
+\begin{figure}[H]
+\includegraphics[scale=0.5]{Diagramm.pdf} 
+\caption{Gemessene Grössen und Trendverlauf.}
+\end{figure}
+Aus diesen Werten werden folgende Trendlininen berechnet:\\
+Trend Rad : \hspace{2cm}$-4.3t+397 $\\
+Trend Kreisel : \hspace{1.58cm}$-11t+2828$
+
+Durch die Ableitung nach der Zeit dieser Werte erhalten wir die Winkelbeschleunigung $\alpha$.\\
+Ersichtlich wird dabei das der Kreisel doppelt so schnell bremst wie das Rad.\\\\
+Das bremsende Drehmoment ergibt sich aus: 
+\begin{equation}
+M=I\cdot \alpha
+\end{equation}
+\begin{equation}
+M_{Kreisel} = I_{Kreisel}\cdot \alpha = 0.0021kgm^2 \cdot (-11)\frac{1}{s^2} = \hspace{0.4cm}-0.0231Nm\\
+\end{equation}
+\begin{equation}
+M_{Rad} = I_{Rad}\cdot \alpha= 0.07kgm^2 \cdot (-4.3)\frac{1}{s^2}  =  -0.301Nm
+\end{equation}
+
+
+
+
 \subsection{Schlussfolgerung}
+Weil sich der Kreisel um den Faktor 10 schnell dreht hat er auch eine höhere Reibungskraft. Darum bremst er auch schneller ab.
+\newpage
+\section{Anhang}
+
+\begin{figure}[H]
+\includegraphics[scale=0.5]{Berechnung.pdf} 
+\label{Anhang}
+\end{figure} 
+
 \end{document}
