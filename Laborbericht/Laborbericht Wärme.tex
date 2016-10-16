@@ -11,6 +11,8 @@
 \usepackage{natbib} % Required to change bibliography style to APA
 \usepackage{amsmath} % Required for some math elements 
 \usepackage{german}
+\usepackage{float}
+\restylefloat{figure}
 \usepackage[utf8]{inputenc}
 \setlength\parindent{0pt} % Removes all indentation from paragraphs
 \renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
@@ -35,7 +37,7 @@
 
 \begin{center}
 \begin{tabular}{l r}
-Ausführungsdatum: & September 28, 2016 \\ % Date the experiment was performed
+Ausführungsdatum: & September 12, 2016 \\ % Date the experiment was performed
 Dozent: & Dr.Ackermann % Instructor/supervisor
 \end{tabular}
 \end{center}
@@ -94,12 +96,12 @@ Somit kann die spezifische Wärmekapazität berechnet werden mit :
     \begin{tabular}{|l|l|l|l|l|l|l|l|}
     
         \hline
-        \textbf{Durchgang} &\textbf{$Tw_k$} &\textbf{$Tw_w$}& \textbf{$mw_k$}&\textbf{$mw_w$}&\textbf{$Tm_g$}&\textbf{$Tm_b$}&\textbf{$c$}\\ \hline
-        1         & 18.6 & 55.0 & 645& 276 & 31.8 &29.5&1329.34\\ 
+        Durchgang &\textbf{$Tw_k$} &\textbf{$Tw_w$}& \textbf{$mw_k$}&\textbf{$mw_w$}&\textbf{$Tm_g$}&\textbf{$Tm_b$}&\textbf{$c$}\\ \hline
+        1         & 18.6 & 55 & 645& 276 & 31.8 &29.5&1329.34\\ 
         2         & 18.2 & 63 &500 &240  & 44 &32.73&1329.34\\ 
-        3         & 654 & 497 &16  &69  &41 &36.73&805.43\\ 
+        3         & 16 & 69 &659 &497  &41 &36.73&805.43\\ 
         4         &  18.2  &50 & 780 & 709 &33&33.74&305.02\\ \hline
-        \textbf{Median}         &&&  &  & && \\ 
+        \textbf{Mittel} &\textbf{17.75}&\textbf{59.25}&\textbf{646}  &\textbf{430.5}  &\textbf{37.45} &\textbf{33.18}&\textbf{} \\ 
         \hline
     \end{tabular}
 \end{table}
@@ -107,18 +109,55 @@ Somit kann die spezifische Wärmekapazität berechnet werden mit :
 \subsection*{Schlussfolgerung}
 
 \section{Versuch 2}
+Bestimmen Sie die spezifische Schmelzwärme von Eis indem Sie Eis in die mit Wasser gefüllte Pfanne geben.
+Halten Sie die Wassertemperatur als Funktion der Zeit in einem Diagramm fest. Führen Sie das Experiment
+mit einem grossen Eisklotz und mit zerdrücktem Eis durch.
 \subsection{Grundlage}
+Bei diesem Versuch wurde bei einer bestimmten Menge Wasser und bestimmter Anfangstemperatur 
+Eis dazugegeben. Es gilt die Temperaturänderung des Wassers in Funktion der Zeit aufzuzeigen. 
+Dabei gilt es eine angemessene Anfangstemperatur des Wassers festzulegen um sicherzustellen, dass 
+der Schmelzversuch nicht zu langsam aber auch nicht zu schnell von statten geht. Doch vorerst 
+mussten folgende Messwerte ermittelt werden
 \subsection{Versuchsaufbau}
 \subsection{Resultate}
 \subsection{Schlussfolgerung}
+Gemäss Tabelle aus dem Taschenbuch der Physik von Horst Kuchling S.636 beträgt der Wert der 
+Schmelzwärme von Eis 334kJ/kg.  
+Da es sich bei diesem Versuch um Zerdrücktes Eis und dieses eine viel grössere Fläche gegenüber 
+dem Wasser ergibt, beträgt hier die Schmelzwärme einiges weniger. Da bei diesem Experiment die 
+Versuchszeit ziemlich kurz war, wurde die Wärmekapazität der Pfanne ignoriert, da sich diese über 
+diese kurze Dauer nicht gross veränderte. 
 \section{Versuch 3}
 \subsection{Grundlage}
 \subsection{Versuchsaufbau}
+\begin{figure}[H]
+\begin{center}
+
+
+\includegraphics[scale=0.3]{Waerme1.pdf} 
+\caption{Wasser wird über dem Gaskocher erhitzt.}
+\end{center}
+\end{figure}
 \subsection{Resultate}
+\begin{figure}[H]
+\includegraphics[scale=0.5]{Waerme.pdf} 
+\caption{Gemessene Grössen und Trendverlauf.}
+\end{figure}
 \subsection{Schlussfolgerung}
 \section{Versuch 4}
+Die spezifische Verdampfungs‐ bez. Kondensationswärme soll bestimmt werden, indem der Wasserdampf in eine
+mit Wasser gefüllte Pfanne geführt wird.
 \subsection{Grundlage}
+Bei diesem Versuch soll eine gewisse Menge Wasser in einem Isolierten Kochtopf mittels der 
+Dampfwärme aus einem anderen Kochtopf erwärmt werden. Der Kochtopf und das zu erwärmende 
+Wasser im Isoliertopf sind über ein kleines Röhrensystem miteinander verbunden. Dabei soll der 
+Temperaturverlauf des zu erwärmenden Wassers sowie die Gewichtsveränderung gemessen werden. 
 \subsection{Versuchsaufbau}
+\begin{figure}[H]
+\includegraphics[scale=0.5]{Pot.pdf} 
+\caption{Durch verdampfen und wider kondensieren soll Energie von dem rechten in den linken Topf gelangen.}
+\end{figure}
 \subsection{Resultate}
+
 \subsection{Schlussfolgerung}
 \end{document}
