@@ -7,7 +7,7 @@
 \contentsline {subsection}{\numberline {2.1}Grundlagen}{5}
 \contentsline {subsection}{\numberline {2.2}Versuchsaufbau}{5}
 \contentsline {subsection}{\numberline {2.3}Berechnungen}{5}
-\contentsline {subsection}{\numberline {2.4}Schlussfolgerung}{6}
+\contentsline {subsection}{\numberline {2.4}Schlussfolgerung}{5}
 \contentsline {section}{\numberline {3}Aufgabe 3}{7}
 \contentsline {subsection}{\numberline {3.1}Grundlagen}{7}
 \contentsline {subsection}{\numberline {3.2}Gemessene Gr\IeC {\"o}ssen}{7}
@@ -19,5 +19,5 @@
 \contentsline {section}{\numberline {5}Aufgabe 5}{9}
 \contentsline {subsection}{\numberline {5.1}Grundlagen}{9}
 \contentsline {subsection}{\numberline {5.2}Gemessene Gr\IeC {\"o}ssen}{9}
-\contentsline {subsection}{\numberline {5.3}Schlussfolgerung}{10}
-\contentsline {section}{\numberline {6}Anhang}{11}
+\contentsline {subsection}{\numberline {5.3}Schlussfolgerung}{9}
+\contentsline {section}{\numberline {6}Anhang}{10}
