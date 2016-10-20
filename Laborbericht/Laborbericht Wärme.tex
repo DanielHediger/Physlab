@@ -53,7 +53,6 @@ Die spezifische Wärmekapazität einer Pfanne soll experimentell bestimmt werden
 \subsection{Grundlagen}
 Die Wärmekapazität gibt an wie viel Energie benötigt wird um ein Kilogramm eines Materials um 1 Kelvin zu erhöhen.
 Bei homogenen Körpern lässt sich die Wärmekapazität als Produkt der Masse des Körpers und der spezifischen Wärmekapazität berechnen.
-\subsection{Versuchsaufbau}
 \subsection{Resultate}
 In dem idealisiert Versuch wird davon ausgegangen das keinen Wärmeaustausch über die Luft stattfindet.Um die Wärmekapazität der Pfanne zu bestimmen wurde die Mischtemperatur berechnet sowie auch gemessen. Da in diesem System die Energieerhaltung gilt, muss die Energiedifferenz die benötigte Energie sein um die Pfanne zu erwärmen.
 
@@ -78,8 +77,13 @@ Somit kann die spezifische Wärmekapazität berechnet werden mit :
 	c_{Pfanne} = \frac{Q}{m_{Pfanne} \cdot (T_{p1}-T_{p2}) }
 \end{equation}
 
-\textbf{Gegebene Grössen}
-
+\textbf{Gegebene Grössen}\\
+\begin{tabular}{l r}
+Masse Eisklotz & 160g \\
+Masse zerdrücktes Eis & 287g \\
+Masse Wasser & 1200g
+\end{tabular}
+\newpage
 \textbf{Beschreibung Tabelle}
 
   \begin{description}
@@ -97,16 +101,19 @@ Somit kann die spezifische Wärmekapazität berechnet werden mit :
     
         \hline
         Durchgang &\textbf{$Tw_k$} &\textbf{$Tw_w$}& \textbf{$mw_k$}&\textbf{$mw_w$}&\textbf{$Tm_g$}&\textbf{$Tm_b$}&\textbf{$c$}\\ \hline
-        1         & 18.6 & 55 & 645& 276 & 31.8 &29.5&1329.34\\ 
-        2         & 18.2 & 63 &500 &240  & 44 &32.73&1329.34\\ 
+        1         & 18.6 & 55 & 645& 276 & 31.8 &29.5&657.83\\ 
+        2         & 18.2 & 63 &500 &240  & 38 &42.73&651.23\\ 
         3         & 16 & 69 &659 &497  &41 &36.73&805.43\\ 
         4         &  18.2  &50 & 780 & 709 &33&33.74&305.02\\ \hline
-        \textbf{Mittel} &\textbf{17.75}&\textbf{59.25}&\textbf{646}  &\textbf{430.5}  &\textbf{37.45} &\textbf{33.18}&\textbf{} \\ 
+        \textbf{Mittelwert} &\textbf{17.75}&\textbf{59.25}&\textbf{646}  &\textbf{430.5}  &\textbf{37.45} &\textbf{33.18}&\textbf{604.88} \\ 
         \hline
     \end{tabular}
 \end{table}
 
 \subsection*{Schlussfolgerung}
+Gemäss schweizer-fn.de beträgt die spez. Wärmekapazität von Chromstahl 457$[\frac{Kg}{J \cdot K}]$, unser Wert liegt bei 694.88 $[\frac{Kg}{J \cdot K}]$ und somit ist das gemessene Resultat plausibel. Die Abweichung hat folgende Gründe:\\
+\textbf{a)} Verluste durch äussere Einflüsse wurden vernachlässigt.\\
+\textbf{b)} Die Dauer des Versuches musste klein gehalten werden damit nicht zu viele Verluste entstehen. Idealerweise müsste länger gewartet werden bis sich das System einpendelt.
 
 \section{Versuch 2}
 Bestimmen Sie die spezifische Schmelzwärme von Eis indem Sie Eis in die mit Wasser gefüllte Pfanne geben.
@@ -118,8 +125,23 @@ Eis dazugegeben. Es gilt die Temperaturänderung des Wassers in Funktion der Zei
 Dabei gilt es eine angemessene Anfangstemperatur des Wassers festzulegen um sicherzustellen, dass 
 der Schmelzversuch nicht zu langsam aber auch nicht zu schnell von statten geht. Doch vorerst 
 mussten folgende Messwerte ermittelt werden
-\subsection{Versuchsaufbau}
 \subsection{Resultate}
+Zuerst wurde die Energiebilanz aufgestellt:
+\begin{equation}
+Q_{Wasser}+Q_{Pfanne}+Q_{Eiswasser} = Q_{Wasser}+Q_{Eis}-Q_{Schmelz}+Q_{Panne}
+\end{equation}
+Daraus folgt:
+\begin{equation}
+(m_{w}+m_{ew})\cdot c_{w}\cdot T_m+m_{p}\cdot c_{p}\cdot T_m= \\ m_{w} \cdot c_{w} \cdot T_{w}+ m_{e} \cdot c_{w} \cdot T_{0^\circ}-Q \cdot m_{e}+m_{p} \cdot c_{p} \cdot
+ T_{p}
+\end{equation}
+
+Die Formal nach $Q_{Schmelz}$ umgeformt:
+
+\begin{equation}
+c_{s} = \frac{T_{w}(m_{w} \cdot c_{w}+m_{p} \cdot c_{p})-T_{m}((m_{w}+m_{e}) \cdot c_{w}+m_{p} \cdot c_{p})}{m_{e}}
+\end{equation}
+
 \subsection{Schlussfolgerung}
 Gemäss Tabelle aus dem Taschenbuch der Physik von Horst Kuchling S.636 beträgt der Wert der 
 Schmelzwärme von Eis 334kJ/kg.  
@@ -128,22 +150,55 @@ dem Wasser ergibt, beträgt hier die Schmelzwärme einiges weniger. Da bei diese
 Versuchszeit ziemlich kurz war, wurde die Wärmekapazität der Pfanne ignoriert, da sich diese über 
 diese kurze Dauer nicht gross veränderte. 
 \section{Versuch 3}
-\subsection{Grundlage}
+Wasser wurde auf einem Gaskocher zum Kochen gebracht. Der 
+Temperaturverlauf wurde als Funktion der Zeit festgehalten. Damit soll bestimmt werden, was für ein 
+Wirkungsgrad das Erwärmen von Wasser hat und ob man ihn mit einem Deckel verbessern kann.  
 \subsection{Versuchsaufbau}
 \begin{figure}[H]
 \begin{center}
-
-
 \includegraphics[scale=0.3]{Waerme1.pdf} 
 \caption{Wasser wird über dem Gaskocher erhitzt.}
 \end{center}
 \end{figure}
 \subsection{Resultate}
+Da das Wasser mit einem Gaskocher erhitzt wurde, muss die Zugeführte Energie wie folgt berechnet werden:
+\begin{equation}
+ Q_{Zugefuehrt} = \Delta m \cdot H_s
+\end{equation}
+Wobei $H_s$ der Brennwet von Propangas ist.\\\\
+\textbf{Ohne Deckel}
+\begin{equation}
+P_{Zugefuehrt} = \frac{Q_{Gas}}{t} = \frac{0.0198Kg\cdot k0.33MJ \cdot kg^-1}{780sek} = \underline{1219.53 W }
+\end{equation}
+\begin{align}
+\begin{split}
+P_{w} = \frac{Q_w}{t} = \frac{m_{w} \cdot c_{w} \cdot \Delta T}{t}=  \frac{1kg \cdot 4180 \cdot (80C^\circ-18.4C^\circ)}{780sek} = \underline{330.11W}
+\end{split}
+\end{align}
+
+\begin{equation}
+\eta = \frac{P_{Wasser}}{P_{Zugefuehrt}} = \underline{0.271}\Rightarrow \underline{\underline{27.1\%}}
+\end{equation}
+\textbf{Mit Deckel}
+\begin{equation}
+P_{Zugefuehrt} = \frac{Q_{Gas}}{t} = \frac{0.0198Kg\cdot 50.33MJ \cdot Kg^-1}{630sek} = \underline{1509.9 W }
+\end{equation}
+\begin{align}
+\begin{split}
+P_{w} = \frac{Q_w}{t} = \frac{m_{w} \cdot c_{w} \cdot \Delta T}{t}=  \frac{1kg \cdot 4180 \cdot (80-17.0)}{630sek} = \underline{418W}
+\end{split}
+\end{align}
+\begin{equation}
+\eta = \frac{P_{Wasser}}{P_{Zugefuehrt}} = \underline{0.277}\Rightarrow \underline{\underline{27.7\%}}
+\end{equation}
 \begin{figure}[H]
 \includegraphics[scale=0.5]{Waerme.pdf} 
 \caption{Gemessene Grössen und Trendverlauf.}
 \end{figure}
+
+
 \subsection{Schlussfolgerung}
+Die Zugeführte Energie wurde nicht ausschliesslich zum Erwärmen des Wassers verwendet. Der Schlecht Wirkungsgrad entsteht durch schlecht Zuführung der Wärme, weil der Brenner hohe Verluste verursacht. Dadurch wird die Prognose das wird ein höheren Wirkungsgrad mit dem Deckel haben nicht mehr deutlich sichtbar. Bessere Resultate sind erzielbar durch verwenden einer Herdplatte.
 \section{Versuch 4}
 Die spezifische Verdampfungs‐ bez. Kondensationswärme soll bestimmt werden, indem der Wasserdampf in eine
 mit Wasser gefüllte Pfanne geführt wird.
@@ -158,6 +213,32 @@ Temperaturverlauf des zu erwärmenden Wassers sowie die Gewichtsveränderung gem
 \caption{Durch verdampfen und wider kondensieren soll Energie von dem rechten in den linken Topf gelangen.}
 \end{figure}
 \subsection{Resultate}
+\subsubsection{Messresultate}
+\begin{tabular}[H]{l r}
+$m_p$ Masse der Pfanne & 1.023 Kg \\
+$m_1$ Anfangsmasse der Pfanne & 1.050 Kg \\
+$m_2$ Endmasse der Pfanne &  1.079 Kg \\
+$T_1$ Anfangstemperatur & 16.8 $C^\circ$ \\
+$T_2$ Endtemperatur & 37.0 $C^\circ$ \\
+$T_d$ Dampftemperatur & 100 $C^\circ$ 
+
+\end{tabular}
+
+\subsubsection{Auswertung}
+Masse des zugeführten Dampfes:
+\begin{equation}
+m_d = m_2 - m_1 = 1.079kg - 1.050 kg = \underline{29g}  
+\end{equation}
+Durch Energiegleichsetzung erfolgt :
+\begin{equation}
+Q_{Wasser1}+Q_{Dampf}+Q_{Verdampfung} = Q_{Wasser2}+Q_{Verdampfung}
+\end{equation}
+\begin{align}
+\begin{split}
+Q_{Dampf}= T_2 \cdot c_w \frac{(m_w+m_d)-c_w\cdot (m_{w1} \cdot T_{1}+m_d\cdot T_d)}{m_d} = \\ \frac{(37 \cdot 4180  + 0.029)-4180 \cdot (1.050 \cdot 16.8 + 0.029 \cdot 100)}{0.029} = \underline{\underline{3.3 MJ \cdot Kg^-1}} 
+\end{split}
+\end{align}
 
 \subsection{Schlussfolgerung}
+Der richtige Wert liegt bei 2.2 $\frac{MJ}{Kg}$. Diese grosse Abweichung lässt sich erklären das auch Dampf an die Umgebung abgegeben wird welche nicht berücksichtigt werden kann.  
 \end{document}
