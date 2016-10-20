@@ -38,9 +38,13 @@
 \begin{center}
 \begin{tabular}{l r}
 Ausführungsdatum: & September 28, 2016 \\ % Date the experiment was performed
-Dozent: & Dr.Ackermann % Instructor/supervisor
+Dozent: & Dr.Ackermann \\% Instructor/supervisor
+Version:& 2.0
 \end{tabular}
+
+
 \end{center}
+
 \newpage
 \tableofcontents 
 
@@ -61,7 +65,7 @@ Das Gewicht wird durch die Erdbeschleunigung nach unten gezogen, und durch das S
 \begin{figure}[h]
 \center
 
-%\includegraphics[scale=0.3]{Wheel.pdf} 
+\includegraphics[scale=0.3]{Wheel.pdf} 
 \caption{Fahrradrad mit angehängten Gewicht.}
 \
 \end{figure}
@@ -119,12 +123,12 @@ Mensch-Hocker-Rad-Systems genähert werden.
 \begin{figure}[h]
 \center
 
-%\includegraphics[scale=0.5]{Drehschemmel.pdf} 
+\includegraphics[scale=0.5]{Drehschemmel.pdf} 
 \caption{Person mit drehendem Fahrradrad}
 \
 
 \end{figure}
-
+\newpage
 \subsection{Berechnungen}
 Mit der Formel:
 \begin{equation}
@@ -197,7 +201,7 @@ W_{Kreisel}=2 \cdot \pi	\cdot \frac{n_{Kreisel}}{60}=2 \cdot \frac{3818}{60}= \u
 M=r \cdot m \cdot g \cdot = 0.07 \cdot 0.1 \cdot 9.81 = \underline{0.0687Nm}
 \end{equation}
 \begin{equation}
- I_{Kreisel}= \frac{M \cdot T_p}{\omega \cdot 2\pi}= \frac{0.0687 \cdot 39.17}{199.91 \cdot 2\pi}= \underline{\underline{0.0021kgm^2}}
+ I_{Kreisel}= \frac{M \cdot T_p}{\omega \cdot 2\pi}= \frac{0.0687 \cdot 39.17}{199.91 \cdot 2\pi}= \underline{\underline{0.0020kgm^2}}
 \end{equation}
 
 \subsection{Schlussfolgerung}
@@ -216,43 +220,54 @@ Der Kreisel wird beschleunigt und anschliessend mit einer Horizontalen Kraft bel
     \begin{tabular}{|l|l|l|l|}
         \hline
            Durchgang & Drehzahl$[\frac{1}{60s}]$ & F $[Nm]$&T $[sek]$     \\ \hline
-        1         & 2800     & 0.5 & 9.22  \\ 
-        2         & 2870     & 0.5 & 12.25  \\ 
-        3         & 3770     & 0.5 & 14.49\\ 
-        4         & 2200     & 0.5 & 14.00 \\ 
-        5         & 3800     & 0.5 & 17.52 \\
+        1         & 1400    & 0.5 & 13.60  \\ 
+        2         & 1450    & 0.5 & 14.25  \\ 
+        3         & 1400    & 0.5 & 11.49\\ 
+        4         & 3300     & 0.5 & 24.00 \\ 
+        5         & 2850     & 0.5 & 20.52 \\
         \hline
-        \textbf{Mittelwert}&\textbf{3088}&\textbf{0.5}&\textbf{10.3}\\ \hline
+        \textbf{Mittelwert}&\textbf{2080}&\textbf{0.5}&\textbf{16.6}\\ \hline
     \end{tabular}
     \caption{Tabelle mit gemessenen Grössen aus dem Versuch}
 \end{table}
 \begin{equation}
-M_z=F \cdot r = 0.5 \cdot 0.07 = 0.035Nm
+M_z=F \cdot r = 0.5 \cdot 0.07 = \underline{0.035Nm}
 \end{equation}
 \begin{equation}
-\omega_K= 2\pi \cdot\frac{n_k}{60} = 3088 \cdot \frac{\pi}{30} = \underline{323.37s^-1}
+\omega_K= 2\pi \cdot\frac{n_k}{60} = 2080 \cdot \frac{\pi}{30} = \underline{217.8s^-1}
 \end{equation}
 \begin{equation}
-\Delta Lz=M_z*T=0.0266 
+\Delta Lz=M_z*T=0.035Nm \cdot 16.6s = \underline{\underline{0.581 [\frac{Kg\cdot m^2}{s}]}} 
 \end{equation}
 Für den Drallsatz $M = \frac{dl}{dt}$ gilt im Fall einer $90^\circ$ Verkippung DL=L.
 Zum Vergleich:
 \begin{equation}
-L_k = I_k \cdot\omega_k = 0.002 \cdot  323.37 = 0.646
+L_k = I_k \cdot\omega_k = 0.002 \cdot  217.8 = \underline{0.435}
 \end{equation}
 
+
+
 \subsection{Schlussfolgerung}
-Das Trägheitsmoment wurde vorgängig experimentell bestimmt und kann dadurch grosse Abweichungen enthalten.Des weiteren ist es sehr schwierig eine konstante Kraft auf den Kreisel auszuüben, wie auch die Reibung wurde in der Formel vernachlässigt.Durch die Addition dieser Fehler sind grosse Abweichungen erklärbar.
+Abweichung der Werte bei $90^\circ$ beträgt 25 Prozent.
+Die Abweichung hat in diesem Versuch mehrere Gründe:\\\\
+\textbf{1)} Die Kraft F (5 N) und damit das Moment waren nicht während der ganzen Rotationsdauer
+konstant. Dies hat ein Schwanken der Präzessionsgeschwindigkeit zur Folge und so indirekt
+Einfluss auf die gemessene Zeit.\\
+\textbf{2)} Die Zeit wurde von Hand mittels Stoppuhr gemessen\\
+\textbf{3)} Die Drehzahl des Kreisels hat sich während der Messung durch Reibungsverluste und Luftwiederstand
+verringert.
 \newpage
 \section{Aufgabe 5}
-Die zeitliche Abnahme der Rotationsfrequenz des Rades und des Kreisels, soll aufgrund
-von Reibung bestimmt werden.
+
 \subsection{Grundlagen}
-Durch Luft und Lagerreibung wird der Körper stetig abgebremst. Ohne die erwähnten Effekte würde das Rad und der Kreisel unendlich weiter drehen.
+Der Versuch diente zur Bestimmung des Bremsmomentes am Velorad und am Kreisel.
+Hierzu wurde das Rad und der Kreisel in Rotation versetzt und die Drehzahl in bestimmten Zeitintervallen
+gemessen. Durch die Abnahme der Drehzahl konnte das Bremsmoment mit dem Trägheitsmoment
+berechnet werden.
 \subsection{Gemessene Grössen}
 
 \begin{figure}[H]
-%\includegraphics[scale=0.5]{Diagramm.pdf} 
+\includegraphics[scale=0.5]{Diagramm.pdf} 
 \caption{Gemessene Grössen und Trendverlauf.}
 \end{figure}
 Aus diesen Werten werden folgende Trendlininen berechnet:\\
@@ -271,19 +286,38 @@ M_{Kreisel} = I_{Kreisel}\cdot \alpha = 0.0021kgm^2 \cdot (-11)\frac{1}{s^2} = \
 \begin{equation}
 M_{Rad} = I_{Rad}\cdot \alpha= 0.07kgm^2 \cdot (-4.3)\frac{1}{s^2}  =  -0.301Nm
 \end{equation}
+\subsection{Berechnungen}
+Das Bremsmoment sowie die Winkelgeschwindigkeit sind in den Messwerttabellen(Anhang 2) bei der dazugehörigen Drehzahl zu finden.
 
-
+\begin{figure}[H]
+\includegraphics[scale=0.7]{Fahrradw.pdf} 
+\caption{Gemessen Daten des Fahrradrades.}
+\end{figure}
+\begin{figure}[H]
+\includegraphics[scale=0.7]{Zirkelw.pdf} 
+\caption{Gemessen Daten des Zirkels.}
+\end{figure}
 
 
 
 \subsection{Schlussfolgerung}
-Weil sich der Kreisel um den Faktor 10 schnell dreht hat er auch eine höhere Reibungskraft. Darum bremst er auch schneller ab.
+Die Messwerte sind mit Vorsicht zu geniessen, da die Drehzahlen von Hand in den Zeitintervallen
+abgelesen wurden. 
+Der Versuch mit dem Kreisel müsste viel länger dauern, sodass auch bei kleinen Winkelgeschwindigkeiten
+Messwerte vorliegen.
+Der Vergleich Kreisel Fahrrad zeigt, dass der Kreisel ähnliche Werte bei viel höheren Drehzahlen
+erreicht. Der Grund dafür wird der grössere Luftwiderstand am Fahrrad durch Pneu und Speichen
+sein.
 \newpage
 \section{Anhang}
 
 \begin{figure}[H]
-%\includegraphics[scale=0.5]{Berechnung.pdf} 
-\label{Anhang}
+
+\includegraphics[scale=0.4]{Berechnung.pdf} 
 \end{figure} 
 
+\begin{figure}[H]
+
+\includegraphics[scale=0.6]{Tabelle.pdf} 
+\end{figure} 
 \end{document}
