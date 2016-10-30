@@ -39,6 +39,7 @@
 \begin{tabular}{l r}
 Ausführungsdatum: & September 12, 2016 \\ % Date the experiment was performed
 Dozent: & Dr.Ackermann % Instructor/supervisor
+
 \end{tabular}
 \end{center}
 \newpage
@@ -77,12 +78,7 @@ Somit kann die spezifische Wärmekapazität berechnet werden mit :
 	c_{Pfanne} = \frac{Q}{m_{Pfanne} \cdot (T_{p1}-T_{p2}) }
 \end{equation}
 
-\textbf{Gegebene Grössen}\\
-\begin{tabular}{l r}
-Masse Eisklotz & 160g \\
-Masse zerdrücktes Eis & 287g \\
-Masse Wasser & 1200g
-\end{tabular}
+
 \newpage
 \textbf{Beschreibung Tabelle}
 
@@ -111,7 +107,7 @@ Masse Wasser & 1200g
 \end{table}
 
 \subsection*{Schlussfolgerung}
-Gemäss schweizer-fn.de beträgt die spez. Wärmekapazität von Chromstahl 457$[\frac{Kg}{J \cdot K}]$, unser Wert liegt bei 694.88 $[\frac{Kg}{J \cdot K}]$ und somit ist das gemessene Resultat plausibel. Die Abweichung hat folgende Gründe:\\
+Gemäss schweizer-fn.de beträgt die spez. Wärmekapazität von Chromstahl 457$[\frac{Kg}{J \cdot K}]$, unser Wert liegt bei 604.88 $[\frac{Kg}{J \cdot K}]$ und somit ist das gemessene Resultat plausibel. Die Abweichung hat folgende Gründe:\\
 \textbf{a)} Verluste durch äussere Einflüsse wurden vernachlässigt.\\
 \textbf{b)} Die Dauer des Versuches musste klein gehalten werden damit nicht zu viele Verluste entstehen. Idealerweise müsste länger gewartet werden bis sich das System einpendelt.
 
@@ -141,14 +137,43 @@ Die Formal nach $Q_{Schmelz}$ umgeformt:
 \begin{equation}
 c_{s} = \frac{T_{w}(m_{w} \cdot c_{w}+m_{p} \cdot c_{p})-T_{m}((m_{w}+m_{e}) \cdot c_{w}+m_{p} \cdot c_{p})}{m_{e}}
 \end{equation}
+\subsubsection{Gemessene Grössen}
+  \begin{description}
+    \item[\textbf{ $Tw_1$}]= Temperatur des Wasser bei Eisklotz vorher= 53.7$[C^\circ]$ 
+        \item[\textbf{ $Tw_1$}]= Temperatur des Wasser bei Eisklotz nachher= 38.5.7$[C^\circ]$ 
+     \item[\textbf{ $Tw_2$}]= Temperatur des Wasser des zerdrückten Eis vorher =  15.3 $[C^\circ]$ 
+          \item[\textbf{ $Tw_2$}]= Temperatur des Wasser des zerdrückten Eis nachher =  0.9 $[C^\circ]$ 
+    \item[\textbf{ $m_w$}]= Masse des Wasser 1 $[kg]$
+     \item[\textbf{ $m_k$}]= Masse des Eisklotzes 0.16 $[kg]$
+    \item[\textbf{ $m_z$}]= Masse des zerdrückten Eis 0.287 $[kg]$
+      \item[\textbf{ $m_p$}]= Masse Pfanne 1.021 s$[kg]$
+  \end{description}
+ \textbf{Berechnung Eisklotz}\\
+ Aus Formel (7) ergibt sich:
+ \begin{equation}
+ \tfrac{53.7 \cdot (4180+1.021 \cdot 604.66)-38.5\cdot (1.21+1+4180+1.021 \cdot 604.66)}{0.16} = \underline{\underline{454.963kJ \cdot kg^-1}} 
+ \end{equation}  
+ 
+  \textbf{Berechnung zerdrücktes Eis}\\
+  \begin{equation}
+ \tfrac{15.3 \cdot (4180+1.021 \cdot 604.66)-0.9\cdot (1.21+1+4180+1.021 \cdot 604.66)}{0.287} = \underline{\underline{340.704kJ \cdot kg^-1}} 
+ \end{equation}  
+ 
+ \subsubsection{Grafik zur Messung}
+ \begin{figure}[H]
+\includegraphics[scale=0.7]{EK.pdf} 
+\caption{Messwerte Eisklotz.}
+\end{figure}
+ \begin{figure}[H]
+\includegraphics[scale=0.7]{ZE.pdf} 
+\caption{Messwerte zerdrücktes Eis.}
+\end{figure}
 
 \subsection{Schlussfolgerung}
 Gemäss Tabelle aus dem Taschenbuch der Physik von Horst Kuchling S.636 beträgt der Wert der 
 Schmelzwärme von Eis 334kJ/kg.  
 Da es sich bei diesem Versuch um Zerdrücktes Eis und dieses eine viel grössere Fläche gegenüber 
-dem Wasser ergibt, beträgt hier die Schmelzwärme einiges weniger. Da bei diesem Experiment die 
-Versuchszeit ziemlich kurz war, wurde die Wärmekapazität der Pfanne ignoriert, da sich diese über 
-diese kurze Dauer nicht gross veränderte. 
+dem Wasser ergibt, wird das Resultat viel genauer.
 \section{Versuch 3}
 Wasser wurde auf einem Gaskocher zum Kochen gebracht. Der 
 Temperaturverlauf wurde als Funktion der Zeit festgehalten. Damit soll bestimmt werden, was für ein 
@@ -193,7 +218,7 @@ P_{w} = \frac{Q_w}{t} = \frac{m_{w} \cdot c_{w} \cdot \Delta T}{t}=  \frac{1kg \
 \end{equation}
 \begin{figure}[H]
 \includegraphics[scale=0.5]{Waerme.pdf} 
-\caption{Gemessene Grössen und Trendverlauf.}
+\caption{Vergleich mit und ohne Deckel.}
 \end{figure}
 
 
@@ -213,7 +238,7 @@ Temperaturverlauf des zu erwärmenden Wassers sowie die Gewichtsveränderung gem
 \caption{Durch verdampfen und wider kondensieren soll Energie von dem rechten in den linken Topf gelangen.}
 \end{figure}
 \subsection{Resultate}
-\subsubsection{Messresultate}
+
 \begin{tabular}[H]{l r}
 $m_p$ Masse der Pfanne & 1.023 Kg \\
 $m_1$ Anfangsmasse der Pfanne & 1.050 Kg \\
@@ -231,14 +256,16 @@ m_d = m_2 - m_1 = 1.079kg - 1.050 kg = \underline{29g}
 \end{equation}
 Durch Energiegleichsetzung erfolgt :
 \begin{equation}
-Q_{Wasser1}+Q_{Dampf}+Q_{Verdampfung} = Q_{Wasser2}+Q_{Verdampfung}
+Q_{Wasser1}+Q_{Dampf}+Q_{Verdampfung}+Q_{Pfanne} = Q_{w2}+Q_{v}+Q_{p}
 \end{equation}
-\begin{align}
-\begin{split}
-Q_{Dampf}= T_2 \cdot c_w \frac{(m_w+m_d)-c_w\cdot (m_{w1} \cdot T_{1}+m_d\cdot T_d)}{m_d} = \\ \frac{(37 \cdot 4180  + 0.029)-4180 \cdot (1.050 \cdot 16.8 + 0.029 \cdot 100)}{0.029} = \underline{\underline{3.3 MJ \cdot Kg^-1}} 
-\end{split}
-\end{align}
+\begin{equation}
+c_{d} = \frac{T_2 \cdot c_w \cdot(m_w+m_d)+T_2\cdot c_p \cdot m_p -c_w \cdot (m_{w1}\cdot T_1 + m_d \cdot T_d)+T_1 \cdot m_p \cdot c_p}{m_d}
+\end{equation}
+Ausgewertet bedeutet das:
+\begin{equation}
+\underline{\underline{2.499 MJ \cdot kg^-1}}
+\end{equation}
 
 \subsection{Schlussfolgerung}
-Der richtige Wert liegt bei 2.2 $\frac{MJ}{Kg}$. Diese grosse Abweichung lässt sich erklären das auch Dampf an die Umgebung abgegeben wird welche nicht berücksichtigt werden kann.  
+Der richtige Wert liegt bei 2.2 $\frac{MJ}{Kg}$. Diese Abweichung lässt sich erklären das auch Dampf an die Umgebung abgegeben wird welche nicht berücksichtigt werden kann.  
 \end{document}
