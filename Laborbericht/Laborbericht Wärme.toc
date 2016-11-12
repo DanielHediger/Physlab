@@ -4,15 +4,16 @@
 \contentsline {section}{\numberline {2}Versuch 2}{4}
 \contentsline {subsection}{\numberline {2.1}Grundlage}{4}
 \contentsline {subsection}{\numberline {2.2}Resultate}{5}
-\contentsline {subsection}{\numberline {2.3}Schlussfolgerung}{5}
-\contentsline {section}{\numberline {3}Versuch 3}{5}
-\contentsline {subsection}{\numberline {3.1}Versuchsaufbau}{6}
-\contentsline {subsection}{\numberline {3.2}Resultate}{6}
-\contentsline {subsection}{\numberline {3.3}Schlussfolgerung}{7}
-\contentsline {section}{\numberline {4}Versuch 4}{7}
-\contentsline {subsection}{\numberline {4.1}Grundlage}{8}
-\contentsline {subsection}{\numberline {4.2}Versuchsaufbau}{8}
-\contentsline {subsection}{\numberline {4.3}Resultate}{8}
-\contentsline {subsubsection}{\numberline {4.3.1}Messresultate}{8}
-\contentsline {subsubsection}{\numberline {4.3.2}Auswertung}{9}
-\contentsline {subsection}{\numberline {4.4}Schlussfolgerung}{9}
+\contentsline {subsubsection}{\numberline {2.2.1}Gemessene Gr\IeC {\"o}ssen}{5}
+\contentsline {subsubsection}{\numberline {2.2.2}Grafik zur Messung}{6}
+\contentsline {subsection}{\numberline {2.3}Schlussfolgerung}{6}
+\contentsline {section}{\numberline {3}Versuch 3}{7}
+\contentsline {subsection}{\numberline {3.1}Versuchsaufbau}{7}
+\contentsline {subsection}{\numberline {3.2}Resultate}{7}
+\contentsline {subsection}{\numberline {3.3}Schlussfolgerung}{8}
+\contentsline {section}{\numberline {4}Versuch 4}{8}
+\contentsline {subsection}{\numberline {4.1}Grundlage}{9}
+\contentsline {subsection}{\numberline {4.2}Versuchsaufbau}{9}
+\contentsline {subsection}{\numberline {4.3}Resultate}{9}
+\contentsline {subsubsection}{\numberline {4.3.1}Auswertung}{10}
+\contentsline {subsection}{\numberline {4.4}Schlussfolgerung}{10}
