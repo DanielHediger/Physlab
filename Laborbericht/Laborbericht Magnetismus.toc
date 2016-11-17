@@ -1,0 +1,25 @@
+\contentsline {section}{\numberline {1}Aufgabe Elektrisch durchgeflossener Leiter}{4}
+\contentsline {subsection}{\numberline {1.1}Aufgabenstellung}{4}
+\contentsline {subsection}{\numberline {1.2}Versuchsaufbau}{4}
+\contentsline {subsection}{\numberline {1.3}Messungen}{5}
+\contentsline {subsection}{\numberline {1.4}Berechnungen}{6}
+\contentsline {subsection}{\numberline {1.5}Auswertung}{6}
+\contentsline {section}{\numberline {2}Frei h\IeC {\"a}ngender Draht}{6}
+\contentsline {subsection}{\numberline {2.1}Aufgabenstellung}{6}
+\contentsline {subsection}{\numberline {2.2}Versuchsaufbau}{7}
+\contentsline {subsection}{\numberline {2.3}Vorbereitung}{7}
+\contentsline {subsubsection}{\numberline {2.3.1}Berechnung Winkel}{8}
+\contentsline {subsection}{\numberline {2.4}Auswertung}{9}
+\contentsline {subsection}{\numberline {2.5}Schlussfolgerung}{9}
+\contentsline {section}{\numberline {3}Helmholzspule}{10}
+\contentsline {subsection}{\numberline {3.1}Aufgabenstellung}{10}
+\contentsline {subsection}{\numberline {3.2}Versuchsaufbau}{10}
+\contentsline {subsection}{\numberline {3.3}Analyse}{11}
+\contentsline {subsection}{\numberline {3.4}Messungen}{11}
+\contentsline {subsubsection}{\numberline {3.4.1}Gleichgerichteter Stromfluss}{13}
+\contentsline {paragraph}{Axiale Komponenten in Gaus}{13}
+\contentsline {paragraph}{Radiale Komponenten in Gaus}{14}
+\contentsline {subsubsection}{\numberline {3.4.2}Gegengerichteter Stromfluss}{15}
+\contentsline {paragraph}{Axiale Komponenten in Gaus}{15}
+\contentsline {paragraph}{Radiale Komponenten in Gaus}{16}
+\contentsline {section}{\numberline {4}Schlussfolgerung}{16}
