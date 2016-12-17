@@ -5,4 +5,18 @@
 \contentsline {subsection}{\numberline {1.4}Fehlabsch\IeC {\"a}tzung}{3}
 \contentsline {section}{\numberline {2}Versuch 2 Spurabstand CD/DVD}{4}
 \contentsline {subsection}{\numberline {2.1}Versuch}{4}
-\contentsline {subsection}{\numberline {2.2}title}{4}
+\contentsline {subsection}{\numberline {2.2}Messwerte}{4}
+\contentsline {subsection}{\numberline {2.3}Berechungen}{4}
+\contentsline {subsection}{\numberline {2.4}Fehlabsch\IeC {\"a}tzung}{5}
+\contentsline {section}{\numberline {3}Versuch 3 Wellenl\IeC {\"a}nge des roten Lasers}{6}
+\contentsline {subsection}{\numberline {3.1}Versuch}{6}
+\contentsline {subsection}{\numberline {3.2}Messwerte}{6}
+\contentsline {subsection}{\numberline {3.3}Berechnungen}{6}
+\contentsline {subsection}{\numberline {3.4}Fehlabsch\IeC {\"a}tzung}{6}
+\contentsline {section}{\numberline {4}Aufgabe 4 Laserleistung}{7}
+\contentsline {subsection}{\numberline {4.1}Versuch}{7}
+\contentsline {subsection}{\numberline {4.2}Messwerte}{7}
+\contentsline {subsection}{\numberline {4.3}Berechnungen}{7}
+\contentsline {section}{\numberline {5}Versuch 5 Laser Polarisation}{8}
+\contentsline {subsection}{\numberline {5.1}Versuch}{8}
+\contentsline {subsection}{\numberline {5.2}Messwerte}{8}
