@@ -17,6 +17,8 @@
 \contentsline {subsection}{\numberline {4.1}Versuch}{7}
 \contentsline {subsection}{\numberline {4.2}Messwerte}{7}
 \contentsline {subsection}{\numberline {4.3}Berechnungen}{7}
-\contentsline {section}{\numberline {5}Versuch 5 Laser Polarisation}{8}
-\contentsline {subsection}{\numberline {5.1}Versuch}{8}
-\contentsline {subsection}{\numberline {5.2}Messwerte}{8}
+\contentsline {section}{\numberline {5}Versuch 5 Laser Polarisation}{9}
+\contentsline {subsection}{\numberline {5.1}Versuch}{9}
+\contentsline {subsection}{\numberline {5.2}Messwerte}{9}
+\contentsline {subsection}{\numberline {5.3}Berechnungen}{9}
+\contentsline {subsection}{\numberline {5.4}Schlussfolgerung}{10}

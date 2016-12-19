@@ -69,7 +69,7 @@ Objekt.
 \begin{tabular}{l r}
 	Abstand des Maxima $\Delta$k & \textbf{45mm}\\
 	k	&\textbf{1}\\
-	Abstand zu Wand L&\textbf{3000mm} \\
+	Abstand zu Wand L&\textbf{3493mm} \\
 	Wellenlänge Lasers $\lambda$ & \textbf{532nm}
 \end{tabular}
 
@@ -78,24 +78,24 @@ Objekt.
 \begin{tabular}{l r}
 	Abstand des Maxima $\Delta$k & \textbf{150mm}\\
 	k	&\textbf{1}\\
-	Abstand zu Wand L&\textbf{3000mm}\\
+	Abstand zu Wand L&\textbf{3493mm}\\
 	Wellenlänge Lasers $\lambda$ & \textbf{532nm}
 \end{tabular}
 
 \subsection{Berechnungen}
 \textbf{Haar}
 \begin{equation}
-\varphi = arctan(\frac{\Delta k}{L}) = \frac{45}{3000}
+\varphi = arctan(\frac{\Delta k}{L}) = \frac{45}{3493}= \underline{0.738^\circ}
 \end{equation}
 \begin{equation}
-L = \lambda \cdot \frac{k+0.5}{sin(\varphi)}= \underline{\underline{text}} 
+L = \lambda \cdot \frac{k+0.5}{sin(\varphi)}=  \underline{\underline{0.062mm}} 
 \end{equation}
 \textbf{Kohlefaser}
 \begin{equation}
-\varphi = arctan(\frac{\Delta k}{L}) = \frac{45}{3000}
+\varphi = arctan(\frac{\Delta k}{L}) = \frac{45}{3493}=\underline{3.2^\circ}
 \end{equation}
 \begin{equation}
-L = \lambda \cdot \frac{k+0.5}{sin(\varphi)}= \underline{\underline{text}} 
+L = \lambda \cdot \frac{k+0.5}{sin(\varphi)}= \underline{\underline{0.014mm}} 
 \end{equation}
 \subsection{Fehlabschätzung}
 \begin{tabular}{l r}
@@ -217,6 +217,7 @@ Responsitive = = \underline{0.23A/m}
 \begin{equation}
 P = \frac{I}{Responsitive}= \frac{0.23mA}{0.23A/m}= \underline{\underline{1mW}}
 \end{equation}
+\newpage
 \section{Versuch 5 Laser Polarisation}
 \subsection{Versuch}
 Jetzt wurde ein Polarisationsfilter zwischen Laser und Fotodiode eingebaut. Dieser Filter lässt nur die
@@ -267,6 +268,28 @@ Leistung der Polarisationsgrad gerechnet.
 	90& 44 &  70\\ 
 	\hline 
 \end{tabular} 
-\
+\subsection{Berechnungen}
+Leistungen wurden aus Versuch 4 genommen.
+Polarisationsgrad:
+\begin{equation}
+	\frac{P_{max}-P_{min}}{P_{max}+P_{min}}
+\end{equation}
+1 = max Polarisiert.\\
+0 = nicht Polarisiert.
+
+\begin{tabular}{l  r r r}
+	\textbf{Laser Grün:}&Spannung&Leistung&Polarisation\\
+	Maximum &72.7mW& 0.632mW&0.57$\approx$ 57 \%\\
+	Minimum &19.9mW& 0.173mW&\\
+	Widerstand&500$\Omega$&&\\
+	Responsivity&0.23&&\\
+\textbf{Laser Rot:}&Spannung&Leistung&Polarisation\\
+Maximum &93mW& 0.516mW&0.978$\approx$ 98 \%\\
+Minimum &1& 0.0055mW&\\
+Widerstand&500$\Omega$&&\\
+Responsivity&0.36&&\\
+\end{tabular}
+\subsection{Schlussfolgerung}
+Daraus ist zu erkennen das der Rote Laser den höheren Polarisationsgrad hat.
 \end{document}
 \
